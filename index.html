@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>form-practice</title>
 </head>
 <body>
     <div class="container">
-        <form action="action_page.php">
+        <form>
             
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name ...">
@@ -18,9 +19,10 @@
 
             <label for="country">Country</label>
             <select name="country" id="country">
-                <option value="USA"></option>
-                <option value="Canada"></option>
-                <option value="Spain"></option>
+                <option value="/">Select</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="Spain">Spain</option>
             </select>
 
             <label for="subject">Subject</label>
@@ -30,6 +32,18 @@
 
 
         </form>
+    </div>
+
+    <!-- form 2 -->
+    <div class="form2">
+        <h3>Hello, please fill out this form</h3>
+
+        <form>
+            <label for="name">Enter full name:</label>
+            <input type="text" placeholder="Name">
+
+        </form>
+       
     </div>
     
     
