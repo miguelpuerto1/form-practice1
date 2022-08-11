@@ -4,6 +4,10 @@
     box-sizing: content-box;
 }
 
+/* --------------------------------------- */
+/* ----- beginning of form 1 ----- */
+/* --------------------------------------- */
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -43,15 +47,19 @@ input[type=text], select, textarea {
 /* ----- beginning of form 2 ----- */
 /* --------------------------------------- */
 
-.form2 {
-  background-color: greenyellow;
-  padding: 20px;
-  width: 300px;
-  color: #024e76;
-  border: solid 3px #024e76;
-  margin: 0 auto;
-  margin-top: 100px;
-}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------- */
+/* ----- media query ----- */
+/* --------------------------------------- */
+
 
 
 
