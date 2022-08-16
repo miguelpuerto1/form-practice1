@@ -1,10 +1,7 @@
-const togglePassword1 = document.querySelector('#togglePassword');
-  const password = document.querySelector('#id_password');
 
-  togglePassword.addEventListener('click', function (e){
-    // toggle the type attribute
-    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-    password.setAttribute('type', type);
-    // toggle the eye slash icon
-    this.classList.toggle('fa-eye-slash');
-});
+document.body.addEventListener('click', function (e){
+  if(e.target.classList.contains("far")){
+   const inp=e.target.previousElementSibling;
+   inp.type=inp.type=="text"?"password":"text";
+  }
+ });
