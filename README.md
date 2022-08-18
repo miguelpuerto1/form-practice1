@@ -1,6 +1,16 @@
-# form-practice1
-practicing making commonly used forms
+# form-practice
+
+## Purpose
+A website that was used to practice creating forms.
+
+## Built With
+* HTML
+* CSS
+* JavaScript
 
 # link to live site
-https://fastidious-cobbler-496aa5.netlify.app
+https://jazzy-pasca-b33b4e.netlify.app
+
+## Contribution
+Made with ❤️ by Miguel Puerto
 
