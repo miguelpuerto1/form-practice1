@@ -5,3 +5,33 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .center h1 {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding-bottom: 20px;
+  }
+
+  .center h3 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .txt_field {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .txt_field input {
+    text-align: center;
+  }
